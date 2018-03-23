@@ -14,7 +14,7 @@ awk '{ print >> $6 }' expTerms:*,query:*
 rm expTerms:*,query:* 
 
 # Move the files to their proper place
-out="/home/gsherma2/doc-exp/out/$1/$2/out.mu0"
+out="/home/gsherma2/doc-exp/out/$1/$2/out/"
 scored="$out/scored"
 mkdir -p $scored
 mv origW:* $out

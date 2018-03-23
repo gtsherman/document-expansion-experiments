@@ -1,0 +1,5 @@
+#!/bin/bash
+# $1 = config file
+
+_JAVA_OPTIONS=-Xmx7g
+java -Djava.library.path=/home/mefron/local_indri/lib -cp "/home/gsherma2/doc-exp/lib/*" org.retrievable.documentExpansion.main.CollectUserStudyDataKt $@
