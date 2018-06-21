@@ -7,7 +7,7 @@ import sys
 
 
 #indexes = {'ap': 'AP_88-89', 'wt10g': 'wt10g', 'robust': 'robust'}
-indexes = {'FT': 'robust', 'FB': 'robust', 'WT': 'wt10g', 'AP': 'ap', 'FR': 'robust', 'LA': 'robust'}
+indexes = {'FT': 'robust', 'FB': 'robust', 'WT': 'wt10g', 'AP': 'ap', 'FR': 'robust', 'LA': 'robust', 'GX': 'gov2'}
 
 def collection_of(docno):
 	docno_start = docno[:2]
