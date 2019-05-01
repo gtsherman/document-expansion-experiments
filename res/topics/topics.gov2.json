@@ -37,6 +37,32 @@
       ]
     },
     {
+      "title": "703",
+      "text": "US against International Criminal Court",
+      "model": [
+        {
+          "weight": "1",
+          "feature": "us"
+        },
+        {
+          "weight": "1",
+          "feature": "against"
+        },
+        {
+          "weight": "1",
+          "feature": "international"
+        },
+        {
+          "weight": "1",
+          "feature": "criminal"
+        },
+        {
+          "weight": "1",
+          "feature": "court"
+        }
+      ]
+    },
+    {
       "title": "704",
       "text": "Green party political views",
       "model": [
